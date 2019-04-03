@@ -3,7 +3,7 @@ Please refer to http://java.com/licensereadme
 Ce projet est une liste référencent des pokémons. En cliquant sur les pokémons on peut obtenir des détails sur : leur type, leur faiblesse, leur évolution suivante (s'il y en a une) et leur évolution précédente (s'il y en a une).
 Au cours de ce projet j'ai rencontré différents problèmes :
 
--Le premier problème que j'ai résolu était que l'application ne fonctionnait plus quand je sélectionnai un pokémon sans évolution suivante ou sans sous-évolution pour régler ce problème j'ai du insérer le code suivant : 
+- Le premier problème que j'ai résolu était que l'application ne fonctionnait plus quand je sélectionnai un pokémon sans évolution suivante ou sans sous-évolution pour régler ce problème j'ai du insérer le code suivant : 
 ```
 public PokemonEvolutionAdapter(Context context, List<Evolution> evolutions) {
         this.context = context;

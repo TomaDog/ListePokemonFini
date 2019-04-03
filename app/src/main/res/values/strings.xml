@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="msg">Cliquez sur la Pokéball pour ouvrir le pokédex</string>
+    <string name="button_msg">Pokédex</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

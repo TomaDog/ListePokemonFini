@@ -1,4 +1,4 @@
-Please refer to http://java.com/licensereadme
+
 # Liste de Pokemon
 Ce projet est une liste référencent des pokémons. En cliquant sur les pokémons on peut obtenir des détails sur : leur type, leur faiblesse, leur évolution suivante (s'il y en a une) et leur évolution précédente (s'il y en a une).
 Au cours de ce projet j'ai rencontré différents problèmes :
@@ -14,4 +14,4 @@ public PokemonEvolutionAdapter(Context context, List<Evolution> evolutions) {
     }
  ```
     
-- Le second problème est que la 3eme évolution d'un pokémon et la première (s'il y en a 3) affiche directement la première sous évolution ou la dernière évolution dans les détails, cela est certainement dû à un problème d'id (problème non résolu)
+- Le second problème est que la 3eme évolution d'un pokémon (s'il en a 3) affiche directement la première sous évolution dans les détails, cela est certainement dû à un problème d'id (problème non résolu)

@@ -18,5 +18,5 @@ public PokemonEvolutionAdapter(Context context, List<Evolution> evolutions) {
 
 
 Images : 
- ![D:\ESIEA\screen_1]
- ![D:\ESIEA\Screen_2]
+ !(D:\ESIEA\screen_1)
+ !(D:\ESIEA\Screen_2)

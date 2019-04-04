@@ -23,45 +23,9 @@ Images :
 
 
 
-
-
-
-
-
-
- ![screen_1.PNG](D:\ESIEA)                                        
+ ![screen_1.png](D:\ESIEA\screen_1.png)                                        
  
  
  
  
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

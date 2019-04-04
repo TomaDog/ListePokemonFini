@@ -19,6 +19,7 @@ public PokemonEvolutionAdapter(Context context, List<Evolution> evolutions) {
 
 Images : 
 
+![Screen #1](https://user-images.githubusercontent.com/47032498/55577395-cc97b400-5713-11e9-9b51-3609cef3f274.png)
 
 
  

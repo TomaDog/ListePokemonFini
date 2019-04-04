@@ -15,3 +15,8 @@ public PokemonEvolutionAdapter(Context context, List<Evolution> evolutions) {
  ```
     
 - Le second problème est que la 3eme évolution d'un pokémon (s'il en a 3) affiche directement la première sous évolution dans les détails, cela est certainement dû à un problème d'id (problème non résolu)
+
+
+Images : 
+ ![D:\ESIEA\screen_1]
+ ![D:\ESIEA\Screen_2]

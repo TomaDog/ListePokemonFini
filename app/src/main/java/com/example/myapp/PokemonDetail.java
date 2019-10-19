@@ -49,11 +49,7 @@ public class PokemonDetail extends Fragment {
         View itemView = inflater.inflate(R.layout.fragment_pokemon_detail, container, false);
 
 
-        Pokemon pokemon;
-        if(getArguments().get("num")==null)
-            pokemon = Common.commonPokemonList.get(getArguments().getInt("position"));
-        else
-            pokemon = Common.findPokemonByNum(getArguments().getString("num"));
+        Pokemon pokemon = Common.findPokemonByNum(getArguments().getString("num"));
 
 
         pokemon_img = (ImageView)itemView.findViewById(R.id.pokemon_image);

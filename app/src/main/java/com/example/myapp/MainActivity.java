@@ -32,9 +32,10 @@ public class MainActivity extends AppCompatActivity {
                 getSupportActionBar().setDisplayShowHomeEnabled(true);
 
                 Fragment detailFragment = PokemonDetail.getInstance();
+                String num = intent.getStringExtra("num");
                 int position = intent.getIntExtra("position",-1);
                 Bundle bundle = new Bundle();
-                bundle.putInt("position",position);
+                bundle.putString("num",num);
                 detailFragment.setArguments(bundle);
 
                 FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
@@ -42,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 fragmentTransaction.addToBackStack("detail");
                 fragmentTransaction.commit();
 
-                Pokemon pokemon = Common.commonPokemonList.get(position);
+                Pokemon pokemon = Common.findPokemonByNum(num);
                 toolbar.setTitle(pokemon.getName());
             }
 

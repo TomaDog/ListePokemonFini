@@ -7,6 +7,29 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/txtinput"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Input new item"
+            />
+        <Button
+            android:id="@+id/btadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:layout_toRightOf="@+id/txtinput"/>
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/listv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+
+
    <android.support.v7.widget.Toolbar
        android:id="@+id/toolbar"
        android:minHeight="?attr/actionBarSize"
@@ -19,7 +42,9 @@
         android:name="com.example.myapp.PokemonList"
         android:id="@+id/list_pokemon_fragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_pokemon_list" />
+
 
 
 

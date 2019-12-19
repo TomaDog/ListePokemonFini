@@ -8,10 +8,11 @@
     tools:context=".PokemonList">
 
 
-    <LinearLayout
+   <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
 
     <com.mancj.materialsearchbar.MaterialSearchBar
         android:id="@+id/search_bar"
@@ -22,11 +23,15 @@
         app:mt_speechMode="false"
         app:mt_hint="Entrer le nom du Pokemon"></com.mancj.materialsearchbar.MaterialSearchBar>
 
+
+
         <android.support.v7.widget.RecyclerView
             android:id="@+id/pokemon_list_recyclerview"
             android:layout_gravity="center_horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+
     </LinearLayout>
 
 </FrameLayout>

@@ -22,7 +22,8 @@ Images :
 ![Screen #1](https://user-images.githubusercontent.com/47032498/71251920-d9048100-2323-11ea-8ff3-a2e6a0029300.jpg)
 
 
-![Screen #2](https://user-images.githubusercontent.com/47032498/55577397-ce617780-5713-11e9-95f3-3cfe6de044c3.png)
+![Screen #2](https://user-images.githubusercontent.com/47032498/71252026-2680ee00-2324-11ea-80d9-2e99e53b0d45.jpg)
+
 
 
  

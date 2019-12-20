@@ -21,7 +21,6 @@ Images :
 
 ![Screen #1](https://user-images.githubusercontent.com/47032498/55577395-cc97b400-5713-11e9-9b51-3609cef3f274.png)
 
-![Sceen #3]‪(C:\Users\Thomas\Pictures\appmobile.png)
 
 ![Screen #2](https://user-images.githubusercontent.com/47032498/55577397-ce617780-5713-11e9-95f3-3cfe6de044c3.png)
 
